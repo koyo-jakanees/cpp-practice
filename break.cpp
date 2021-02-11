@@ -1,7 +1,7 @@
 // demo of breaks in loops
 
 #include <iostream>
-using namespace std;
+// using namespace std;
 
 int main(){
   float num, sum = 0.0;
@@ -9,8 +9,8 @@ int main(){
   //Test expression left to always true
   while (true)
   {
-    cout << " enter a num >>: ";
-    cin >> num;
+    std::cout << " enter a num >>: ";
+    std::cin >> num;
     if( num != 0.0){
       sum += num;
     }
@@ -21,6 +21,6 @@ int main(){
     }
     
   }
-  cout << "sum is: "<< sum;
+  std::cout << "sum is: "<< sum;
   return 0;
 }
