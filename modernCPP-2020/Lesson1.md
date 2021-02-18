@@ -32,3 +32,8 @@ $ program 0>stdin.txt 1>stdout.txt 2>stderr.txt
 Standard Input channel 0
 Standard output channel 1
 Standard error channel 2
+
+[C++ Reference](https://en.cppreference.com/w/cpp)
+[Cpp Core Guidelines](https://github.com/isocpp/CppCoreGuidelines)
+[Google Code Styleguide](https://google.github.io/styleguide/cppguide.html)
+[C++ Tutorial](https://www.cpluscplus.com/doc/tutorial/)
