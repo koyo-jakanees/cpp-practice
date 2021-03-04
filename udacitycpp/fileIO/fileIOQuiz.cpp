@@ -31,7 +31,7 @@ int main () {
     else cout << "Unable to open file for writing";
   
     //create an input stream to write to the file
-    ifstream myfileO ("input.txt");
+    ifstream myfileO ("input.txt.txt");
     if (myfileO.is_open())
     {
         while ( getline (myfileO,line) )
